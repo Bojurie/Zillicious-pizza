@@ -1,0 +1,27 @@
+.header {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.header h2 {
+  text-align: left;
+  font-size: 37px;
+  color: rgb(235, 34, 34);
+  /* align-items: center; */
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: auto;
+
+
+}
+
+.bgImage {
+  background-image: url("https://images.unsplash.com/photo-1594791670225-09300060596a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-origin: content-box; */
+}

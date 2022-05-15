@@ -1,0 +1,36 @@
+.d-block {
+  width: 100%;
+  max-height: 700px;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.carousel-caption {
+  top: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.carousel-caption h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 764px) {
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+}

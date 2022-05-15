@@ -1,0 +1,35 @@
+.contactImg {
+  background-image: url("https://images.unsplash.com/photo-1572635148997-b388f80f6a39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Contact-content>.heading {
+  padding: 50px 0 20px 0 !important;
+}
+
+.Contact-Wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+
+.Contact-img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Contact-img img {
+  width: 400px;
+  height: 500px;
+}
+
+@media screen and (max-width: 764px) {
+  .Contact-img {
+    display: none;
+    /* align-items: flex-end; */
+  }
+}

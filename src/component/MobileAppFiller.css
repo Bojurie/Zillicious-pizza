@@ -1,0 +1,36 @@
+.Mobileappfiller {
+  background-color: rgba(232, 19, 19, 0.705);
+  padding: 110px 70px 110px 180px;
+}
+
+.Mobileappfiller-header {
+  text-align: left;
+}
+
+.Mobileappfiller-header h1 {
+  padding: 0 0 15px;
+  letter-spacing: 2px;
+
+}
+
+.Mobileappfiller-header h2 {
+  padding: 0px 0 5px;
+  letter-spacing: 1px;
+}
+
+.Mobileappfiller-header p {
+  letter-spacing: 1px;
+}
+
+.appStore-img img {
+  width: 160px;
+  height: 60px;
+  padding: 0 10px 0 0;
+
+}
+
+.appStore-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}

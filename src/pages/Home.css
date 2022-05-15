@@ -1,0 +1,13 @@
+.bk-img {}
+
+.bk-img {
+  position: relative;
+  /* width: 100%;
+  height: ; */
+}
+
+@media screen and (max-width: 414px) {
+  .Mobileappfiller {
+    padding: 98px 50px 110px 50px;
+  }
+}

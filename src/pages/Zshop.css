@@ -1,0 +1,16 @@
+.Zshop-wrapper {
+  padding: 70px 0 0;
+}
+
+.heading {
+  /* padding: 70px 0; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 414px) {
+  .Zshop-wrapper>.heading {
+    padding: 50px 0 0;
+
+  }
+}
