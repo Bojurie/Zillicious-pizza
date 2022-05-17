@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Zillicious-pizza/static/css/main.ea12c81c.css",
+    "main.js": "/Zillicious-pizza/static/js/main.808013c1.js",
+    "static/media/image8_1.png": "/Zillicious-pizza/static/media/image8_1.83f7b136b02fc60afc62.png",
+    "static/media/image10.png": "/Zillicious-pizza/static/media/image10.9fd0d4be0e37ad05c7e8.png",
+    "static/media/image6_1.png": "/Zillicious-pizza/static/media/image6_1.d98dbb1d04c3e2d50eb9.png",
+    "static/media/image2.png": "/Zillicious-pizza/static/media/image2.a2465ac15b153b49cf79.png",
+    "static/media/IMG_4959.JPG": "/Zillicious-pizza/static/media/IMG_4959.5b6ec19c0773ba5baa0e.JPG",
+    "static/media/IMG_4956.JPG": "/Zillicious-pizza/static/media/IMG_4956.7b650faeb8f9802da6bb.JPG",
+    "static/media/IMG_4954.JPG": "/Zillicious-pizza/static/media/IMG_4954.6eaa4495fece3345905f.JPG",
+    "static/media/apple-app-store-badge.svg": "/Zillicious-pizza/static/media/apple-app-store-badge.8c4986ee4828b47d16f5cd694ef065f2.svg",
+    "static/media/google-play-badge.svg": "/Zillicious-pizza/static/media/google-play-badge.f4cb054b440ace9b21910cde4ac17f16.svg",
+    "index.html": "/Zillicious-pizza/index.html",
+    "main.ea12c81c.css.map": "/Zillicious-pizza/static/css/main.ea12c81c.css.map",
+    "main.808013c1.js.map": "/Zillicious-pizza/static/js/main.808013c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea12c81c.css",
+    "static/js/main.808013c1.js"
+  ]
+}
