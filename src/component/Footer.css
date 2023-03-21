@@ -50,3 +50,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 60px 90px;
+ }
+}

@@ -47,11 +47,10 @@ const Navbar = () => {
   return (
     <nav className='Navbar'>
         <div className='Logo'>
-            <Link to='/home'><h1>ZZilious-pizza</h1></Link> 
+            <Link to='/'><h1>ZZilious-pizza</h1></Link> 
         </div>
         <Navigation />
-        <MobileNavigation />
-        
+        <MobileNavigation />  
     </nav>
   );
 }

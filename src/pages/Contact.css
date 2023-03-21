@@ -6,13 +6,13 @@
 }
 
 .Contact-content>.heading {
-  padding: 50px 0 20px 0 !important;
+  padding: 50px !important;
 }
 
 .Contact-Wrapper {
   display: flex;
   justify-content: space-around;
-  padding: 20px 0;
+  padding: 70px ;
   flex-wrap: wrap;
   /* align-items: center; */
 }
@@ -32,4 +32,10 @@
     display: none;
     /* align-items: flex-end; */
   }
+}
+
+@media (max-width: 500px) {
+  .Contact-Wrapper {
+    padding:20px 0px;
+ }
 }

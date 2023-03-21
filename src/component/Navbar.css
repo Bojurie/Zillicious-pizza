@@ -12,14 +12,19 @@
   padding: 0 70px;
   width: 100%;
   background-color: rgba(232, 19, 19, 0.705);
-
 }
 
-.Logo a {
+.Logo h1 {
   color: rgb(255, 215, 0);
-  font-family: 'Playball',
-    cursive;
+  font-family: 'Playball', cursive;
   text-decoration: none;
+  font-size: 1.8rem;
+}
+.Logo a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
 }
 
 /* .Navbar {
@@ -39,7 +44,7 @@
   padding: 0 20px;
   text-decoration: none;
   color: white;
-  font-size: 17px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -50,14 +55,13 @@
   box-shadow: 0 0 5px rgb(255, 215, 0) 0 0 5px #7c5f20;
   border-radius: 5px;
   border: 1px soild rgb(255, 215, 0);
-
 }
 
-.Navbar-links_contact {
+.Navbar-links_contact i {
   color: rgb(206, 221, 220);
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .nav-chart {
@@ -69,7 +73,6 @@
 .nav-chart span:nth-child(1) {
   font-size: 2rem;
   color: white;
-
 }
 
 .nav-chart span:nth-child(2) {
@@ -82,7 +85,7 @@
   border-radius: 5px;
 }
 
-.Navbar>.MobileNavigation {
+.Navbar > .MobileNavigation {
   display: none;
 }
 
@@ -95,6 +98,7 @@
     display: flex;
     background-color: goldenrod;
     align-items: center;
+    z-index: 1000;
   }
 
   .Navbar .MobileNavigation .Hamburger {
@@ -117,7 +121,6 @@
   .Navbar nav ul li {
     padding: 10px 5px;
   }
-
 
   .Navbar {
     opacity: 1;

@@ -1,14 +1,16 @@
-.Zshop-wrapper {
+/* .Zshop-wrapper {
   padding: 70px 0 0;
+} */
+.Zshop >.container {
+  padding: 50px 110px;
 }
-
 .heading {
   /* padding: 70px 0; */
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .Zshop-wrapper>.heading {
     padding: 50px 0 0;
 

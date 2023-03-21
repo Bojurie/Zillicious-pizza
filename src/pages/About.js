@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Header';
 import './About.css'
-import Footer from '../component/Footer';
 
 const chef = 'https://images.unsplash.com/photo-1512484776495-a09d92e87c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80'
 
@@ -41,8 +40,7 @@ const About = () => {
               </div>
           </div>
           </div>
-        <Footer />
-      </div>
+       </div>
     </>
   )
 }

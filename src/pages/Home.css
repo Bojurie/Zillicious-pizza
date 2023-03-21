@@ -10,4 +10,9 @@
   .Mobileappfiller {
     padding: 98px 50px 110px 50px;
   }
+
+  .WhyUs-img img {
+    border-radius: 50%;
+    transform: scale(1);
+  }
 }

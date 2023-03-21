@@ -12,8 +12,8 @@ const MobileAppFiller = () => {
         <p>Please download our mobile app for convenient </p>
       </div>
       <div className='appStore-img'>
-        <img src={googleplay}  />
-        <img src={appleplay}  />
+        <img src={googleplay} alt='Google play' />
+        <img src={appleplay} alt='Apple play' />
       </div>
 
     </div>

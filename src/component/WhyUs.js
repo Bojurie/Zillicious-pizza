@@ -6,11 +6,9 @@ const WhyUs = () => {
   return (
     <>
     <div className='WhyUs'> 
-        
-        
         <div className='WhyUs-content'>
            <div className='WhyUs-img'>
-             <img src={image} />
+             <img src={image} alt='choose us'/>
           </div>
           <div className='WhyUs-content_wrapper'>
 
@@ -34,7 +32,6 @@ const WhyUs = () => {
                   <h3>Fast Delivery</h3>
                   <p>The best food around the area</p>
                 </div>
-              
             </div>
              <div className='WhyUs-content_wrapper-side'>
                <div className='icon'>

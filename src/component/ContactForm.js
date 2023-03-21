@@ -25,28 +25,27 @@ const Contactform = () => {
             <form onSubmit={onSubmit}>
               <div className='form-group_name'>
                 <div className='form-group'>
-                  <label htmlFor='fName'>First Name</label>
                   <input type='text' name='fName' placeholder='  First name' value={name} onChange={onChange}/>
                 </div>
                 <div className='form-group'>
-                  <label htmlFor='lName'>Last Name</label>
                   <input type='text' name='lName'  placeholder='  Last Name' value={name} onChange={onChange}/>
                 </div>
                 
               </div>
               <div className='form-group'>
-                <label htmlFor='email'>Email Address</label>
                 <input type='email' name='email'  placeholder='  Email Address...' value={email} onChange={onChange}/>
               </div>
               <div className='form-group'>
-                <label htmlFor='topic'>Subject</label>
                 <input type='topic' name='topic'  placeholder='  Subject...' value={topic} onChange={onChange}/>
               </div>
               <div className='form-group'>
                 
-                <textarea type='message' name='message' value={message} placeholder='Message' onChange={onChange}/>
+                <textarea type='message' name='message' value={message}   
+                placeholder='  Message' onChange={onChange}/>
               </div>
-              <p></p><button type='submit' value='Register' className='btn btn-primary btn-lg' >Submit</button>
+                <button type='submit' value='Register' className='btn btn-primary btn-lg'>
+                  Submit
+                </button>
             </form>
         </div>
     </div>

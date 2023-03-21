@@ -1,5 +1,40 @@
 .feature {
-  padding: 80px 60px;
+  padding: 100px 120px;
   background-color: white;
+}
 
+.feature-header h1 {
+  padding: 20px;
+}
+
+.feature-cat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-item h2 {
+  padding: 20px;
+}
+
+.feature-item img {
+  border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+  .feature {
+  padding: 40px 20px;
+ }
+ .feature-item {
+    padding: 0px;
+ }
+ .feature-cat {
+
+    justify-content: center;
+}
 }

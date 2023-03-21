@@ -82,6 +82,15 @@ export class DataProvider extends Component {
          
          },
         
+         {
+          "_id": "9",
+          "title": "Cold Beverages",
+          "src": `${alcdrind}`,
+          "description": "description",
+          "price": 20,
+         
+         },
+        
        ]
       }
     }
