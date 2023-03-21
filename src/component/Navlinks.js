@@ -13,7 +13,7 @@ const Navlinks = (props) => {
               <li initial={animateFrom} 
                   animate={animateTo} 
                   onClick={() => props.isMobile && props.closeMobileMenu()}>
-                  <Link to='/home'> Home</Link>
+                  <Link to='/'> Home</Link>
               </li>
               <li 
                   onClick={() => props.isMobile && props.closeMobileMenu()}>
