@@ -35,9 +35,9 @@
   letter-spacing: 1px;
   margin-bottom: 1px;
 }
-/* .WhyUs-img {
+.WhyUs-img {
   max-width: 100%;
-} */
+}
 
 .WhyUs-content_wrapper-side h3 {
   letter-spacing: 1px;
@@ -64,10 +64,10 @@
 }
 
 @media only screen and (min-width: 320px) {
-.WhyUs-img {
-    width: 230px;
-    height: 230px;
-}
+    .WhyUs-img{
+  width: 350px;
+  height: 350px;
+  }
   .WhyUs-img img{
   width: 100%;
   height: 100%;

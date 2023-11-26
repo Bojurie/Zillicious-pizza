@@ -5,10 +5,10 @@
 }
 
 .About p {
-    line-height: 35px;
-    /* letter-spacing: px;
-    font-weight: 300px; */
-    color: rgb(137, 134, 134);
+  line-height: 35px;
+  letter-spacing: 1.2px;
+  font-weight: 300px;
+  color: rgb(137, 134, 134);
 }
 
 .About-wrapper {

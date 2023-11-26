@@ -9,14 +9,17 @@
 
 .Mobileappfiller-header h1 {
   padding: 0 0 15px;
+  letter-spacing: 2px;
 
 }
 
 .Mobileappfiller-header h2 {
   padding: 0px 0 5px;
+  letter-spacing: 1px;
 }
 
 .Mobileappfiller-header p {
+  letter-spacing: 1px;
 }
 
 .appStore-img img {

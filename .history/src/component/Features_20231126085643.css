@@ -9,7 +9,10 @@
     justify-content: center;
 }
 
-
+.feature-item {
+  text-align: center;
+  padding: 20px;
+}
 
 .feature-item h2 {
   padding: 20px;
@@ -47,9 +50,5 @@
   .feature {
     padding: 100px 120px;
     background-color: white;
-}
-.feature-item {
-  text-align: center;
-  padding: 20px;
 }
 }

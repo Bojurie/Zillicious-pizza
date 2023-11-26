@@ -48,12 +48,10 @@ const Features = () => {
           </div>
           <div className="feature-item">
             <h2>Dessert</h2>
-            <div className="Item-Img-Wrapper">
-              <img
-                src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
-                alt=""
-              />
-            </div>
+            <img
+              src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+              alt=""
+            />
           </div>
           <div className="feature-item">
             <h2>Kids Choiceses</h2>

@@ -12,14 +12,10 @@
     font-size: 16px;
   }
   h2{
-font-size: 14px;
-  }
-  h3{
-        font-size: 13px;
+
   }
   p{
-    font-size: 12px;
-margin-bottom: 0px;
+
   }
 }
 @media only screen and (min-width: 992px){
@@ -29,10 +25,7 @@ font-size: 22px;
   h2{
     font-size: 19px;
   }
-  h3{
-    font-size: 16px;
-  }
   p{
-  font-size: 14px;
+
   }
 }

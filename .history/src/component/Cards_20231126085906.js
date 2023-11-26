@@ -14,7 +14,9 @@ class Cards extends Component {
         <div id="cards">
           {products.map((product) => (
             <div className="cards-wrapper" key={product._id}>
-              <img src={product.src} alt="" />
+              <div className="card-Image">
+                <img src={product.src} alt="" />
+              </div>
               <div className="card">
                 <div className="content">
                   <h3> {product.title}</h3>

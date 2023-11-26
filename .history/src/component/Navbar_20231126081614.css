@@ -34,12 +34,28 @@ ul {
   margin: 0;
 }
 
+.Navbar-links li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .Navbar-links li a:hover {
   color: rgb(255, 215, 0);
   padding: 12px 20px;
   box-shadow: 0 0 5px rgb(255, 215, 0) 0 0 5px #7c5f20;
   border-radius: 5px;
   border: 1px soild rgb(255, 215, 0);
+}
+
+.Navbar-links_contact i {
+  color: rgb(206, 221, 220);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .nav-chart {
@@ -83,8 +99,6 @@ ul {
     position: absolute;
     right: 5%;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
   }
 
   .Navbar nav ul {
@@ -99,7 +113,7 @@ ul {
   }
 
   .Navbar nav ul li {
-    padding: 15px 0px;
+    padding: 10px 5px;
   }
 
   .Navbar {
@@ -111,23 +125,12 @@ ul {
   }
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and(min-width: 320px) {
 .Logo h1 {
     color: rgb(255, 215, 0);
     font-family: 'Playball', cursive;
     text-decoration: none;
     font-size: 1.3rem;
-}
-.Navbar-links_contact i {
-    letter-spacing: 2px;
-    font-size: 14px;
-}
-.Navbar-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
 }
 }
 @media only screen and (min-width: 992px) {
@@ -150,11 +153,5 @@ ul {
     font-family: 'Playball', cursive;
     text-decoration: none;
     font-size: 1.5rem;
-}
-.Navbar-links_contact i {
-    color: rgb(206, 221, 220);
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 14px;
 }
 }
